@@ -19,7 +19,6 @@ for message in st.session_state.messages:
     with st.chat_message(message["role"]):
         st.markdown(message["content"])
 
-
 # React to user input
 if prompt := st.chat_input("Que puis-je faire pour toi ? "):
     # Display user message in chat message container
@@ -30,7 +29,6 @@ if prompt := st.chat_input("Que puis-je faire pour toi ? "):
     # Display assistant response in chat message container
     with st.chat_message("assistant"):
         with st.spinner("Loading response..."):
-            print(prompt)
             response = agent.chat(st.session_state.messages)
         st.write_stream(stream_data(response))
 
