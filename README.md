@@ -7,8 +7,8 @@ An intelligent chatbot that interacts with users to schedule appointments using 
 
 Clone the repository
 ```shell
-git clone https://github.com/Oscaro92/appointment-chatbot.git
-cd appointment-chatbot
+git clone https://github.com/Oscaro92/appointment-agent.git
+cd appointment-agent
 ```
 Create a virtual environment
 ```shell
@@ -46,7 +46,7 @@ streamlit run chat.py
 ## 📁 Project Structure
 
 ```
-appointment-chatbot/
+appointment-agent/
 ├── agent.py            # Agent
 ├── chat.py             # Chatbot with streamlit
 ├── function.py         # Google Calendar integration
