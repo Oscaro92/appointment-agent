@@ -7,7 +7,7 @@ An intelligent chatbot that interacts with users to schedule appointments using 
 
 Clone the repository
 ```shell
-git clone https://github.com/<your-username>/appointment-chatbot.git
+git clone https://github.com/Oscaro92/appointment-chatbot.git
 cd appointment-chatbot
 ```
 Create a virtual environment
